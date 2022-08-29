@@ -1,0 +1,45 @@
+* {
+  color: rgb(64, 64, 64);
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: Helvetica, sans-serif;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#img-container {
+  padding: 10px;
+}
+
+figcaption {
+  margin-top: 10px;
+}
+
+#tribute-info {
+  max-width: 80ch;
+}
+
+#tribute-info li {
+  margin: 10px;
+}
+
+footer {
+  text-align: center;
+}
+
+#quote {
+  margin-top: 50px;
+}
+
+#image {
+  width: 996px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
